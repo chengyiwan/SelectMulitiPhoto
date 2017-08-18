@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF52A4581F46BF1A00C8FE54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52A4571F46BF1A00C8FE54 /* main.m */; };
+		EF52A45B1F46BF1A00C8FE54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52A45A1F46BF1A00C8FE54 /* AppDelegate.m */; };
+		EF52A45E1F46BF1A00C8FE54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52A45D1F46BF1A00C8FE54 /* ViewController.m */; };
+		EF52A4611F46BF1B00C8FE54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF52A45F1F46BF1B00C8FE54 /* Main.storyboard */; };
+		EF52A4631F46BF1C00C8FE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF52A4621F46BF1C00C8FE54 /* Assets.xcassets */; };
+		EF52A4661F46BF1C00C8FE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF52A4641F46BF1C00C8FE54 /* LaunchScreen.storyboard */; };
+		EF52A4711F46BF1D00C8FE54 /* SelectMulitiPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52A4701F46BF1D00C8FE54 /* SelectMulitiPhotoTests.m */; };
+		EF52A47C1F46BF1D00C8FE54 /* SelectMulitiPhotoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52A47B1F46BF1D00C8FE54 /* SelectMulitiPhotoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF52A46D1F46BF1C00C8FE54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF52A44B1F46BF1900C8FE54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF52A4521F46BF1A00C8FE54;
+			remoteInfo = SelectMulitiPhoto;
+		};
+		EF52A4781F46BF1D00C8FE54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF52A44B1F46BF1900C8FE54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF52A4521F46BF1A00C8FE54;
+			remoteInfo = SelectMulitiPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF52A4531F46BF1A00C8FE54 /* SelectMulitiPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectMulitiPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF52A4571F46BF1A00C8FE54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF52A4591F46BF1A00C8FE54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF52A45A1F46BF1A00C8FE54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF52A45C1F46BF1A00C8FE54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF52A45D1F46BF1A00C8FE54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF52A4601F46BF1B00C8FE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF52A4621F46BF1C00C8FE54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF52A4651F46BF1C00C8FE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF52A4671F46BF1C00C8FE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF52A46C1F46BF1C00C8FE54 /* SelectMulitiPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectMulitiPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF52A4701F46BF1D00C8FE54 /* SelectMulitiPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectMulitiPhotoTests.m; sourceTree = "<group>"; };
+		EF52A4721F46BF1D00C8FE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF52A4771F46BF1D00C8FE54 /* SelectMulitiPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectMulitiPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF52A47B1F46BF1D00C8FE54 /* SelectMulitiPhotoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectMulitiPhotoUITests.m; sourceTree = "<group>"; };
+		EF52A47D1F46BF1D00C8FE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF52A4501F46BF1A00C8FE54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52A4691F46BF1C00C8FE54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52A4741F46BF1D00C8FE54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF52A44A1F46BF1900C8FE54 = {
+			isa = PBXGroup;
+			children = (
+				EF52A4551F46BF1A00C8FE54 /* SelectMulitiPhoto */,
+				EF52A46F1F46BF1C00C8FE54 /* SelectMulitiPhotoTests */,
+				EF52A47A1F46BF1D00C8FE54 /* SelectMulitiPhotoUITests */,
+				EF52A4541F46BF1A00C8FE54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF52A4541F46BF1A00C8FE54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF52A4531F46BF1A00C8FE54 /* SelectMulitiPhoto.app */,
+				EF52A46C1F46BF1C00C8FE54 /* SelectMulitiPhotoTests.xctest */,
+				EF52A4771F46BF1D00C8FE54 /* SelectMulitiPhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF52A4551F46BF1A00C8FE54 /* SelectMulitiPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				EF52A4591F46BF1A00C8FE54 /* AppDelegate.h */,
+				EF52A45A1F46BF1A00C8FE54 /* AppDelegate.m */,
+				EF52A45C1F46BF1A00C8FE54 /* ViewController.h */,
+				EF52A45D1F46BF1A00C8FE54 /* ViewController.m */,
+				EF52A45F1F46BF1B00C8FE54 /* Main.storyboard */,
+				EF52A4621F46BF1C00C8FE54 /* Assets.xcassets */,
+				EF52A4641F46BF1C00C8FE54 /* LaunchScreen.storyboard */,
+				EF52A4671F46BF1C00C8FE54 /* Info.plist */,
+				EF52A4561F46BF1A00C8FE54 /* Supporting Files */,
+			);
+			path = SelectMulitiPhoto;
+			sourceTree = "<group>";
+		};
+		EF52A4561F46BF1A00C8FE54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF52A4571F46BF1A00C8FE54 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF52A46F1F46BF1C00C8FE54 /* SelectMulitiPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF52A4701F46BF1D00C8FE54 /* SelectMulitiPhotoTests.m */,
+				EF52A4721F46BF1D00C8FE54 /* Info.plist */,
+			);
+			path = SelectMulitiPhotoTests;
+			sourceTree = "<group>";
+		};
+		EF52A47A1F46BF1D00C8FE54 /* SelectMulitiPhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF52A47B1F46BF1D00C8FE54 /* SelectMulitiPhotoUITests.m */,
+				EF52A47D1F46BF1D00C8FE54 /* Info.plist */,
+			);
+			path = SelectMulitiPhotoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF52A4521F46BF1A00C8FE54 /* SelectMulitiPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF52A4801F46BF1D00C8FE54 /* Build configuration list for PBXNativeTarget "SelectMulitiPhoto" */;
+			buildPhases = (
+				EF52A44F1F46BF1A00C8FE54 /* Sources */,
+				EF52A4501F46BF1A00C8FE54 /* Frameworks */,
+				EF52A4511F46BF1A00C8FE54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectMulitiPhoto;
+			productName = SelectMulitiPhoto;
+			productReference = EF52A4531F46BF1A00C8FE54 /* SelectMulitiPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF52A46B1F46BF1C00C8FE54 /* SelectMulitiPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF52A4831F46BF1D00C8FE54 /* Build configuration list for PBXNativeTarget "SelectMulitiPhotoTests" */;
+			buildPhases = (
+				EF52A4681F46BF1C00C8FE54 /* Sources */,
+				EF52A4691F46BF1C00C8FE54 /* Frameworks */,
+				EF52A46A1F46BF1C00C8FE54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF52A46E1F46BF1C00C8FE54 /* PBXTargetDependency */,
+			);
+			name = SelectMulitiPhotoTests;
+			productName = SelectMulitiPhotoTests;
+			productReference = EF52A46C1F46BF1C00C8FE54 /* SelectMulitiPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF52A4761F46BF1D00C8FE54 /* SelectMulitiPhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF52A4861F46BF1D00C8FE54 /* Build configuration list for PBXNativeTarget "SelectMulitiPhotoUITests" */;
+			buildPhases = (
+				EF52A4731F46BF1D00C8FE54 /* Sources */,
+				EF52A4741F46BF1D00C8FE54 /* Frameworks */,
+				EF52A4751F46BF1D00C8FE54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF52A4791F46BF1D00C8FE54 /* PBXTargetDependency */,
+			);
+			name = SelectMulitiPhotoUITests;
+			productName = SelectMulitiPhotoUITests;
+			productReference = EF52A4771F46BF1D00C8FE54 /* SelectMulitiPhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF52A44B1F46BF1900C8FE54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					EF52A4521F46BF1A00C8FE54 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y27YDDWD9N;
+						ProvisioningStyle = Automatic;
+					};
+					EF52A46B1F46BF1C00C8FE54 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y27YDDWD9N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF52A4521F46BF1A00C8FE54;
+					};
+					EF52A4761F46BF1D00C8FE54 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y27YDDWD9N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF52A4521F46BF1A00C8FE54;
+					};
+				};
+			};
+			buildConfigurationList = EF52A44E1F46BF1900C8FE54 /* Build configuration list for PBXProject "SelectMulitiPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF52A44A1F46BF1900C8FE54;
+			productRefGroup = EF52A4541F46BF1A00C8FE54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF52A4521F46BF1A00C8FE54 /* SelectMulitiPhoto */,
+				EF52A46B1F46BF1C00C8FE54 /* SelectMulitiPhotoTests */,
+				EF52A4761F46BF1D00C8FE54 /* SelectMulitiPhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF52A4511F46BF1A00C8FE54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF52A4661F46BF1C00C8FE54 /* LaunchScreen.storyboard in Resources */,
+				EF52A4631F46BF1C00C8FE54 /* Assets.xcassets in Resources */,
+				EF52A4611F46BF1B00C8FE54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52A46A1F46BF1C00C8FE54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52A4751F46BF1D00C8FE54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF52A44F1F46BF1A00C8FE54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF52A45E1F46BF1A00C8FE54 /* ViewController.m in Sources */,
+				EF52A45B1F46BF1A00C8FE54 /* AppDelegate.m in Sources */,
+				EF52A4581F46BF1A00C8FE54 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52A4681F46BF1C00C8FE54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF52A4711F46BF1D00C8FE54 /* SelectMulitiPhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52A4731F46BF1D00C8FE54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF52A47C1F46BF1D00C8FE54 /* SelectMulitiPhotoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF52A46E1F46BF1C00C8FE54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF52A4521F46BF1A00C8FE54 /* SelectMulitiPhoto */;
+			targetProxy = EF52A46D1F46BF1C00C8FE54 /* PBXContainerItemProxy */;
+		};
+		EF52A4791F46BF1D00C8FE54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF52A4521F46BF1A00C8FE54 /* SelectMulitiPhoto */;
+			targetProxy = EF52A4781F46BF1D00C8FE54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF52A45F1F46BF1B00C8FE54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF52A4601F46BF1B00C8FE54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF52A4641F46BF1C00C8FE54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF52A4651F46BF1C00C8FE54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF52A47E1F46BF1D00C8FE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF52A47F1F46BF1D00C8FE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF52A4811F46BF1D00C8FE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y27YDDWD9N;
+				INFOPLIST_FILE = SelectMulitiPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.SelectMulitiPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF52A4821F46BF1D00C8FE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y27YDDWD9N;
+				INFOPLIST_FILE = SelectMulitiPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.SelectMulitiPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF52A4841F46BF1D00C8FE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y27YDDWD9N;
+				INFOPLIST_FILE = SelectMulitiPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.SelectMulitiPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelectMulitiPhoto.app/SelectMulitiPhoto";
+			};
+			name = Debug;
+		};
+		EF52A4851F46BF1D00C8FE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y27YDDWD9N;
+				INFOPLIST_FILE = SelectMulitiPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.SelectMulitiPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelectMulitiPhoto.app/SelectMulitiPhoto";
+			};
+			name = Release;
+		};
+		EF52A4871F46BF1D00C8FE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y27YDDWD9N;
+				INFOPLIST_FILE = SelectMulitiPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.SelectMulitiPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SelectMulitiPhoto;
+			};
+			name = Debug;
+		};
+		EF52A4881F46BF1D00C8FE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y27YDDWD9N;
+				INFOPLIST_FILE = SelectMulitiPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.SelectMulitiPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SelectMulitiPhoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF52A44E1F46BF1900C8FE54 /* Build configuration list for PBXProject "SelectMulitiPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF52A47E1F46BF1D00C8FE54 /* Debug */,
+				EF52A47F1F46BF1D00C8FE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF52A4801F46BF1D00C8FE54 /* Build configuration list for PBXNativeTarget "SelectMulitiPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF52A4811F46BF1D00C8FE54 /* Debug */,
+				EF52A4821F46BF1D00C8FE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF52A4831F46BF1D00C8FE54 /* Build configuration list for PBXNativeTarget "SelectMulitiPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF52A4841F46BF1D00C8FE54 /* Debug */,
+				EF52A4851F46BF1D00C8FE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF52A4861F46BF1D00C8FE54 /* Build configuration list for PBXNativeTarget "SelectMulitiPhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF52A4871F46BF1D00C8FE54 /* Debug */,
+				EF52A4881F46BF1D00C8FE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF52A44B1F46BF1900C8FE54 /* Project object */;
+}
