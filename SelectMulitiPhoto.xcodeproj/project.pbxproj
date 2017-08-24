@@ -7,13 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF0E7C1F1F4EAC0500E92705 /* btn_check_pre.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0E7C1D1F4EAC0500E92705 /* btn_check_pre.png */; };
-		EF0E7C201F4EAC0500E92705 /* btn_check.png in Resources */ = {isa = PBXBuildFile; fileRef = EF0E7C1E1F4EAC0500E92705 /* btn_check.png */; };
 		EF0E7C231F4EC64800E92705 /* ShowPicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E7C221F4EC64800E92705 /* ShowPicVC.m */; };
-		EF0E7C4F1F4ECBA100E92705 /* BigPicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E7C4C1F4ECBA100E92705 /* BigPicVC.m */; };
-		EF0E7C501F4ECBA100E92705 /* MRZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E7C4E1F4ECBA100E92705 /* MRZoomScrollView.m */; };
-		EF4132A01F47C65B001D3964 /* ImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF41329F1F47C65B001D3964 /* ImagePickerVC.m */; };
-		EF4132A91F47D500001D3964 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4132A81F47D500001D3964 /* PhotoCollectionViewCell.m */; };
 		EF52A4581F46BF1A00C8FE54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52A4571F46BF1A00C8FE54 /* main.m */; };
 		EF52A45B1F46BF1A00C8FE54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52A45A1F46BF1A00C8FE54 /* AppDelegate.m */; };
 		EF52A45E1F46BF1A00C8FE54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52A45D1F46BF1A00C8FE54 /* ViewController.m */; };
@@ -24,6 +18,12 @@
 		EF52A47C1F46BF1D00C8FE54 /* SelectMulitiPhotoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52A47B1F46BF1D00C8FE54 /* SelectMulitiPhotoUITests.m */; };
 		EF52A48B1F46BF4E00C8FE54 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF52A48A1F46BF4E00C8FE54 /* Photos.framework */; };
 		EF52A48D1F46BF5D00C8FE54 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF52A48C1F46BF5D00C8FE54 /* PhotosUI.framework */; };
+		EFEDD0D01F4EDF740043F7BE /* ImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEDD0CD1F4EDF740043F7BE /* ImagePickerVC.m */; };
+		EFEDD0D11F4EDF740043F7BE /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEDD0CF1F4EDF740043F7BE /* PhotoCollectionViewCell.m */; };
+		EFEDD0D71F4EDFE70043F7BE /* BigPicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEDD0D41F4EDFE70043F7BE /* BigPicVC.m */; };
+		EFEDD0D81F4EDFE70043F7BE /* MRZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEDD0D61F4EDFE70043F7BE /* MRZoomScrollView.m */; };
+		EFEDD0DC1F4EE0510043F7BE /* btn_check.png in Resources */ = {isa = PBXBuildFile; fileRef = EFEDD0DA1F4EE0510043F7BE /* btn_check.png */; };
+		EFEDD0DD1F4EE0510043F7BE /* btn_check_pre.png in Resources */ = {isa = PBXBuildFile; fileRef = EFEDD0DB1F4EE0510043F7BE /* btn_check_pre.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,18 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF0E7C1D1F4EAC0500E92705 /* btn_check_pre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_check_pre.png; path = ../../../../Downloads/btn_check_pre.png; sourceTree = "<group>"; };
-		EF0E7C1E1F4EAC0500E92705 /* btn_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_check.png; path = ../../../../Downloads/btn_check.png; sourceTree = "<group>"; };
 		EF0E7C211F4EC64800E92705 /* ShowPicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPicVC.h; sourceTree = "<group>"; };
 		EF0E7C221F4EC64800E92705 /* ShowPicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPicVC.m; sourceTree = "<group>"; };
-		EF0E7C4B1F4ECBA100E92705 /* BigPicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigPicVC.h; sourceTree = "<group>"; };
-		EF0E7C4C1F4ECBA100E92705 /* BigPicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigPicVC.m; sourceTree = "<group>"; };
-		EF0E7C4D1F4ECBA100E92705 /* MRZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRZoomScrollView.h; sourceTree = "<group>"; };
-		EF0E7C4E1F4ECBA100E92705 /* MRZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRZoomScrollView.m; sourceTree = "<group>"; };
-		EF41329E1F47C65B001D3964 /* ImagePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerVC.h; sourceTree = "<group>"; };
-		EF41329F1F47C65B001D3964 /* ImagePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerVC.m; sourceTree = "<group>"; };
-		EF4132A71F47D500001D3964 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
-		EF4132A81F47D500001D3964 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		EF52A4531F46BF1A00C8FE54 /* SelectMulitiPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectMulitiPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF52A4571F46BF1A00C8FE54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF52A4591F46BF1A00C8FE54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +64,16 @@
 		EF52A47D1F46BF1D00C8FE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF52A48A1F46BF4E00C8FE54 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		EF52A48C1F46BF5D00C8FE54 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		EFEDD0CC1F4EDF740043F7BE /* ImagePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerVC.h; sourceTree = "<group>"; };
+		EFEDD0CD1F4EDF740043F7BE /* ImagePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerVC.m; sourceTree = "<group>"; };
+		EFEDD0CE1F4EDF740043F7BE /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		EFEDD0CF1F4EDF740043F7BE /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		EFEDD0D31F4EDFE70043F7BE /* BigPicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigPicVC.h; sourceTree = "<group>"; };
+		EFEDD0D41F4EDFE70043F7BE /* BigPicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigPicVC.m; sourceTree = "<group>"; };
+		EFEDD0D51F4EDFE70043F7BE /* MRZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRZoomScrollView.h; sourceTree = "<group>"; };
+		EFEDD0D61F4EDFE70043F7BE /* MRZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRZoomScrollView.m; sourceTree = "<group>"; };
+		EFEDD0DA1F4EE0510043F7BE /* btn_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_check.png; sourceTree = "<group>"; };
+		EFEDD0DB1F4EE0510043F7BE /* btn_check_pre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_check_pre.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,33 +103,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF0E7C1C1F4EABEC00E92705 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				EF0E7C1D1F4EAC0500E92705 /* btn_check_pre.png */,
-				EF0E7C1E1F4EAC0500E92705 /* btn_check.png */,
-			);
-			name = images;
-			sourceTree = "<group>";
-		};
-		EF0E7C4A1F4ECBA100E92705 /* Commen */ = {
-			isa = PBXGroup;
-			children = (
-				EF0E7C4B1F4ECBA100E92705 /* BigPicVC.h */,
-				EF0E7C4C1F4ECBA100E92705 /* BigPicVC.m */,
-				EF0E7C4D1F4ECBA100E92705 /* MRZoomScrollView.h */,
-				EF0E7C4E1F4ECBA100E92705 /* MRZoomScrollView.m */,
-			);
-			path = Commen;
-			sourceTree = "<group>";
-		};
 		EF4132A11F47CF25001D3964 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				EF52A45C1F46BF1A00C8FE54 /* ViewController.h */,
 				EF52A45D1F46BF1A00C8FE54 /* ViewController.m */,
-				EF41329E1F47C65B001D3964 /* ImagePickerVC.h */,
-				EF41329F1F47C65B001D3964 /* ImagePickerVC.m */,
 				EF0E7C211F4EC64800E92705 /* ShowPicVC.h */,
 				EF0E7C221F4EC64800E92705 /* ShowPicVC.m */,
 			);
@@ -139,8 +117,6 @@
 		EF4132A31F47CF4B001D3964 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EF4132A71F47D500001D3964 /* PhotoCollectionViewCell.h */,
-				EF4132A81F47D500001D3964 /* PhotoCollectionViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -148,6 +124,7 @@
 		EF52A44A1F46BF1900C8FE54 = {
 			isa = PBXGroup;
 			children = (
+				EFEDD0CB1F4EDF740043F7BE /* PhotoSelect */,
 				EF52A4551F46BF1A00C8FE54 /* SelectMulitiPhoto */,
 				EF52A46F1F46BF1C00C8FE54 /* SelectMulitiPhotoTests */,
 				EF52A47A1F46BF1D00C8FE54 /* SelectMulitiPhotoUITests */,
@@ -169,8 +146,6 @@
 		EF52A4551F46BF1A00C8FE54 /* SelectMulitiPhoto */ = {
 			isa = PBXGroup;
 			children = (
-				EF0E7C4A1F4ECBA100E92705 /* Commen */,
-				EF0E7C1C1F4EABEC00E92705 /* images */,
 				EF4132A31F47CF4B001D3964 /* View */,
 				EF4132A11F47CF25001D3964 /* Controller */,
 				EF52A4591F46BF1A00C8FE54 /* AppDelegate.h */,
@@ -217,6 +192,40 @@
 				EF52A48A1F46BF4E00C8FE54 /* Photos.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFEDD0CB1F4EDF740043F7BE /* PhotoSelect */ = {
+			isa = PBXGroup;
+			children = (
+				EFEDD0D91F4EE0510043F7BE /* images */,
+				EFEDD0D21F4EDFE70043F7BE /* Commen */,
+				EFEDD0CC1F4EDF740043F7BE /* ImagePickerVC.h */,
+				EFEDD0CD1F4EDF740043F7BE /* ImagePickerVC.m */,
+				EFEDD0CE1F4EDF740043F7BE /* PhotoCollectionViewCell.h */,
+				EFEDD0CF1F4EDF740043F7BE /* PhotoCollectionViewCell.m */,
+			);
+			name = PhotoSelect;
+			path = SelectMulitiPhoto/PhotoSelect;
+			sourceTree = "<group>";
+		};
+		EFEDD0D21F4EDFE70043F7BE /* Commen */ = {
+			isa = PBXGroup;
+			children = (
+				EFEDD0D31F4EDFE70043F7BE /* BigPicVC.h */,
+				EFEDD0D41F4EDFE70043F7BE /* BigPicVC.m */,
+				EFEDD0D51F4EDFE70043F7BE /* MRZoomScrollView.h */,
+				EFEDD0D61F4EDFE70043F7BE /* MRZoomScrollView.m */,
+			);
+			path = Commen;
+			sourceTree = "<group>";
+		};
+		EFEDD0D91F4EE0510043F7BE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EFEDD0DA1F4EE0510043F7BE /* btn_check.png */,
+				EFEDD0DB1F4EE0510043F7BE /* btn_check_pre.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,10 +338,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF52A4661F46BF1C00C8FE54 /* LaunchScreen.storyboard in Resources */,
+				EFEDD0DC1F4EE0510043F7BE /* btn_check.png in Resources */,
+				EFEDD0DD1F4EE0510043F7BE /* btn_check_pre.png in Resources */,
 				EF52A4631F46BF1C00C8FE54 /* Assets.xcassets in Resources */,
 				EF52A4611F46BF1B00C8FE54 /* Main.storyboard in Resources */,
-				EF0E7C201F4EAC0500E92705 /* btn_check.png in Resources */,
-				EF0E7C1F1F4EAC0500E92705 /* btn_check_pre.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,13 +366,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4132A01F47C65B001D3964 /* ImagePickerVC.m in Sources */,
 				EF52A45E1F46BF1A00C8FE54 /* ViewController.m in Sources */,
 				EF0E7C231F4EC64800E92705 /* ShowPicVC.m in Sources */,
-				EF0E7C501F4ECBA100E92705 /* MRZoomScrollView.m in Sources */,
 				EF52A45B1F46BF1A00C8FE54 /* AppDelegate.m in Sources */,
-				EF4132A91F47D500001D3964 /* PhotoCollectionViewCell.m in Sources */,
-				EF0E7C4F1F4ECBA100E92705 /* BigPicVC.m in Sources */,
+				EFEDD0D81F4EDFE70043F7BE /* MRZoomScrollView.m in Sources */,
+				EFEDD0D11F4EDF740043F7BE /* PhotoCollectionViewCell.m in Sources */,
+				EFEDD0D01F4EDF740043F7BE /* ImagePickerVC.m in Sources */,
+				EFEDD0D71F4EDFE70043F7BE /* BigPicVC.m in Sources */,
 				EF52A4581F46BF1A00C8FE54 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
