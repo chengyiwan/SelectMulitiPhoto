@@ -16,6 +16,7 @@
 @interface ViewController ()
 {
     NSMutableDictionary *mutDic;
+    dispatch_semaphore_t semaphone;
 }
 
 @end
@@ -27,10 +28,16 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
     mutDic = [[NSMutableDictionary alloc]init];
+    semaphone = dispatch_semaphore_create(0);
     [self getThumbnailImages];
 }
 
 - (void)createView {
+    //iOS10后第一次进入防止按钮加2次
+    for (UIView *subView in self.view.subviews) {
+        [subView removeFromSuperview];
+    }
+    
     UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake((SCREEN_WIDTH - 100)/2, (SCREEN_HEIGHT - 100)/2, 100, 100)];
     [btn setTitle:@"打开相册" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
@@ -41,6 +48,17 @@
 
 //进入相册
 - (void)btnClick {
+    
+    //第一次进入
+    if(mutDic.allKeys.count == 0) {
+        dispatch_async(dispatch_get_global_queue(0, 0), ^{
+            [self getThumbnailImages];
+        });
+        
+        dispatch_semaphore_wait(semaphone, DISPATCH_TIME_FOREVER);
+    }
+    
+    
     ImagePickerVC *pickVC = [[ImagePickerVC alloc]init];
     pickVC.dataDic = mutDic;
     pickVC.maxCount = 8;
@@ -122,6 +140,9 @@
         [[PHImageManager defaultManager] requestImageForAsset:asset targetSize:size contentMode:PHImageContentModeDefault options:options resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
             NSLog(@"%@", result);
         }];
+    }
+    if (mutDic.allKeys.count != 0) {
+        dispatch_semaphore_signal(semaphone);
     }
     [self createView];
 }
