@@ -34,9 +34,7 @@
 
 - (void)createView {
     //iOS10后第一次进入防止按钮加2次
-    for (UIView *subView in self.view.subviews) {
-        [subView removeFromSuperview];
-    }
+    [self.view.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     
     UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake((SCREEN_WIDTH - 100)/2, (SCREEN_HEIGHT - 100)/2, 100, 100)];
     [btn setTitle:@"打开相册" forState:UIControlStateNormal];
